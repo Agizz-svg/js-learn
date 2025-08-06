@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Belajar Javascript Part 11 : Perulangan For Paada JAvascript </title>
+
+</head>
+<body>
+    <h1>Perulangan For pada Javascript</h1>
+    <h2>WWWW.malasngoding.com</h2>
+
+    <button onclick="perulangan()">TOMBOL</button>
+
+    <!-- id hasil -->
+    <div id="hasil"></div>
+
+    <script>
+        function perulangan(){
+            var text = "";
+            var x;
+            for (x = 0; x <= 10; x++) {
+                text += "Angka " + x + "<br>";
+                }
+                document.getElementById("hasil").innerHTML = text;
+        
+        }
+    </script>
+
+    
+</body>
+</html>
